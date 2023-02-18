@@ -14,7 +14,7 @@ Link -  [Weather-app](https://profound-starlight-d0d572.netlify.app/)
  
 ## Description
 
-This weather app  provides  pressure, weather conditions, relative humidity, Temp. in different citys, in addition to 4 days in future and hourly weather forecast.
+This weather app  provides  pressure, weather conditions, relative humidity, Temp. in different citys, in addition to 4 days in future weather forecast.
 
  ## Installation
 
