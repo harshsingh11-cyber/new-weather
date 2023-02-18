@@ -2,6 +2,29 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deployment
+
+To deploy this project 
+
+```bash
+  i use netlify for deploying a project.
+```
+ [running tests](https://profound-starlight-d0d572.netlify.app/) 
+
+ 
+## Description
+
+This weather app  provides  pressure, weather conditions, relative humidity, Temp. in different citys, in addition to 4 days in future and hourly weather forecast.
+
+ ## Installation
+
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -39,32 +62,31 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+
+## Tech Stack
+
+**Client:** HTML, CSS, React.js..
+
+**API:** Weather Api
+
+
+## API Reference
+
+#### Get all items
+
+for weather report i use Weather API - OpenWeatherMap.
+this provide the weather report. with diffarent units , location , city, etc.
+
+## Screenshots
+![Screenshot (243)](https://user-images.githubusercontent.com/65847214/219850010-cb4b67d9-33b8-4e38-8099-1754e828b8fc.png)
+![Screenshot (244)](https://user-images.githubusercontent.com/65847214/219850015-389bc53c-d4bf-4299-af7e-5146dc55d5f1.png)
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
