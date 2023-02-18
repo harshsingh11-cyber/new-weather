@@ -9,7 +9,7 @@ To deploy this project
 ```bash
   i use netlify for deploying a project.
 ```
- [running tests](https://profound-starlight-d0d572.netlify.app/) 
+Link -  [Weather-app](https://profound-starlight-d0d572.netlify.app/) 
 
  
 ## Description
