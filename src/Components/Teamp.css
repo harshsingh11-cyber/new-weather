@@ -1,0 +1,169 @@
+
+
+.teamp__container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('imgs/bg-1.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    opacity: 0.9;
+}
+.teamp__con{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 60px 0px;
+}
+.temp__curr{
+    width: 100%;
+    height: auto;
+    /* background-color: blanchedalmond; */
+}
+
+
+
+
+.teamp__fav{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+.teamp__fav > p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.fav__loc{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(43, 43, 70);
+    color: aliceblue;
+    margin: auto;
+    border-radius: 15px;
+}
+.fav__loc > h3{
+font-size: 25px;
+} 
+.fav__loc > h5{
+    font-size: 20px;
+} 
+.fav__loc > p{
+    font-size: 20px;
+} 
+
+.teamp__search{
+    width: 100%;
+    height: auto;
+    background-color: rgba(150, 182, 241, 0.288);
+    border-radius: 15px;
+    padding: 15px 0px;
+}
+
+
+.input_field{
+    min-width: 300px;
+    height: 50px;
+    margin: 15px 0px;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.curr__data,.input__data{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.curr__forecast{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.fore{
+    width: 100px;
+    height: 100px;
+    /* background-color: blue; */
+}
+.data{
+    height: 100px; 
+    width: 100px;
+ 
+}
+h2{
+    font-size: 35px;
+    margin: 10px 0px;
+    text-shadow: 2px 2px 5px rgb(214, 127, 127);
+
+}
+h4{
+    font-size: 25px;
+    margin: 15px 0px;
+}
+.data > p{
+    font-size: 20px;
+    margin: 10px 0px;
+    font-weight: 700;
+}
+
+.fore > h3{
+    margin: 5px 0px 10px 0px;
+
+}
+.fore > p{
+    margin: 3px 0%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .teamp__con{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 50px;
+
+    }
+    .fore{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(14, 11, 11);
+        color: antiquewhite;
+        border-radius: 15px;
+    }
+    .curr__forecast{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .input_field{
+        margin-top: 20px;
+    }
+.search__input{
+    margin-top: 20px;
+}
+ 
+}
